@@ -81,10 +81,10 @@ def train_model(model, train_loader, test_loader, loss_fn, optimizer, epochs=3):
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
-Include your plot here
+<img width="496" height="575" alt="image" src="https://github.com/user-attachments/assets/1b3aeece-7eff-43ef-aca1-34be41552a96" />
 
 ### Sample Text Prediction
-Include your sample text prediction here.
+<img width="559" height="617" alt="image" src="https://github.com/user-attachments/assets/ea395902-76de-46fd-b94c-130e1260530d" />
 
 ## RESULT
 The BiLSTM model was successfully trained for 3 epochs to perform Named Entity Recognition on the NER dataset. The model learned to identify and classify named entities such as persons, organizations, locations, and geopolitical entities from input text sequences. The training and validation loss decreased consistently across epochs, indicating good convergence. The sample prediction output demonstrates that the model correctly assigns NER tags to most words in the test sentence with reasonable accuracy.
